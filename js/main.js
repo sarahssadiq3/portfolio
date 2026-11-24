@@ -105,6 +105,7 @@
           { class: `card${p.featured ? " featured" : ""}` },
           p.featured ? el("p", { class: "badge" }, "Featured") : null,
           el("h3", {}, p.name),
+          p.date ? el("p", { class: "card-meta" }, p.date) : null,
           el("p", { class: "card-desc" }, p.description),
           tags(p.tech),
           el(

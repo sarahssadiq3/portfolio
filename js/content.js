@@ -122,7 +122,36 @@ window.CONTENT = {
   //   repo: "https://github.com/sarahssadiq3/project",
   //   demo: "",
   // },
-  projects: [],
+  projects: [
+    {
+      name: "PantryPal",
+      featured: true,
+      date: "UT Austin · Spring 2026",
+      description:
+        "AI-powered Android app for household inventory, grocery tracking, and meal planning. Uses Google's Gemini API to suggest meals from the ingredients on hand, with Firebase Authentication and real-time Firestore sync so a whole household can collaborate.",
+      tech: ["Kotlin", "Android", "Firebase", "Firestore", "Gemini API"],
+      repo: "",
+      demo: "",
+    },
+    {
+      name: "Computer Vision for Autonomous Driving",
+      date: "UT Austin · Fall 2025",
+      description:
+        "Multi-task CNN that performs semantic segmentation and depth estimation on simulated driving data. Encoder-decoder architecture with skip connections and dedicated prediction heads, trained with weighted cross-entropy + L1 loss and evaluated on accuracy and IoU.",
+      tech: ["Python", "PyTorch", "CNNs"],
+      repo: "",
+      demo: "",
+    },
+    {
+      name: "Deep Neural Networks for Image Classification",
+      date: "UT Austin · Fall 2025",
+      description:
+        "Implemented and compared four architectures, from linear classifiers and MLPs to residual networks with layer normalization. Built SGD training and validation pipelines with momentum and weight decay, tracked in TensorBoard with saved model checkpoints.",
+      tech: ["Python", "PyTorch", "TensorBoard"],
+      repo: "",
+      demo: "",
+    },
+  ],
 
   education: [
     {
