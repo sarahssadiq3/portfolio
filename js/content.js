@@ -10,7 +10,7 @@ window.CONTENT = {
     title: "Software Engineer",
     location: "Frisco, TX",
     // Short status line shown at the top. Set to "" to hide.
-    availability: "Open to new Software Engineering opportunities",
+    availability: "",
     summary:
       "Full-stack software engineer with 4+ years at JPMorgan Chase building financial applications with Java, Spring Boot, React, and AWS. " +
       "Currently pursuing a Master's in Computer Science at UT Austin.",
