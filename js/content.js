@@ -132,6 +132,7 @@ window.CONTENT = {
       tech: ["Kotlin", "Android", "Firebase", "Firestore", "Gemini API"],
       repo: "",
       demo: "",
+      video: "https://youtu.be/3H1l3QXX8ck",
     },
     {
       name: "Computer Vision for Autonomous Driving",

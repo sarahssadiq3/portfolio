@@ -112,6 +112,7 @@
             "div",
             { class: "card-links" },
             p.demo ? el("a", ext(p.demo), "Live demo ↗") : null,
+            p.video ? el("a", ext(p.video), "Watch demo video ↗") : null,
             p.repo ? el("a", ext(p.repo), "Source code ↗") : null
           )
         )
