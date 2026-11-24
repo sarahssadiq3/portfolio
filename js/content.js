@@ -6,102 +6,141 @@
  */
 window.CONTENT = {
   profile: {
-    name: "Your Name",
+    name: "Sarah Sadiq",
     title: "Software Engineer",
-    location: "City, State",
+    location: "Frisco, TX",
     // Short status line shown at the top. Set to "" to hide.
-    availability: "Open to full-time Software Engineering roles",
+    availability: "Open to new Software Engineering opportunities",
     summary:
-      "Software engineer with X years of experience building scalable web services and user-facing products. " +
-      "I care about clean architecture, measurable impact, and shipping features that customers actually use.",
-    email: "you@example.com",
-    // Put your resume PDF in the /assets folder and keep this path in sync. Set to "" to hide.
-    resume: "assets/resume.pdf",
+      "Full-stack software engineer with 4+ years at JPMorgan Chase building financial applications with Java, Spring Boot, React, and AWS. " +
+      "Currently pursuing a Master's in Computer Science at UT Austin.",
+    email: "sarahssadiq3@gmail.com",
+    // Put your resume PDF in the /assets folder and set this to "assets/resume.pdf". "" hides the button.
+    resume: "",
     links: {
-      github: "https://github.com/your-username",
-      linkedin: "https://www.linkedin.com/in/your-username",
-      // website: "https://example.com",
+      github: "https://github.com/sarahssadiq3",
+      // linkedin: "https://www.linkedin.com/in/your-username",
     },
   },
 
   // Grouped skills. Add/remove groups freely.
   skills: [
-    { group: "Languages", items: ["TypeScript", "JavaScript", "Python", "Java", "SQL"] },
-    { group: "Frontend", items: ["React", "Next.js", "HTML/CSS", "Tailwind"] },
-    { group: "Backend", items: ["Node.js", "Express", "REST", "GraphQL", "PostgreSQL"] },
-    { group: "Cloud & Tools", items: ["AWS", "Docker", "CI/CD", "Git", "Linux"] },
+    { group: "Languages", items: ["Java", "Python", "JavaScript", "Kotlin", "C#", "C++", "SQL"] },
+    { group: "Backend", items: ["Spring Boot", "Spring Framework", "REST APIs", "GraphQL", "Swagger / OpenAPI"] },
+    { group: "Frontend & Mobile", items: ["React", "Angular", "React Native", "Flutter", "HTML/CSS"] },
+    {
+      group: "Cloud & DevOps",
+      items: ["AWS", "ECS", "EC2", "Lambda", "RDS", "ElastiCache", "CloudWatch", "Terraform", "CI/CD", "Git"],
+    },
+    { group: "Data & Process", items: ["Pandas", "JSON", "XML", "Jira", "Scrum"] },
   ],
 
   // Most recent first. Lead bullets with impact + numbers where you can.
   experience: [
     {
-      company: "Company Name",
-      role: "Software Engineer",
-      location: "City, State · Remote",
-      start: "Jan 2023",
+      company: "JPMorgan Chase & Co.",
+      role: "Software Engineer II",
+      location: "",
+      start: "Jul 2022",
       end: "Present",
-      url: "https://example.com",
-      highlights: [
-        "Led the redesign of the checkout service, cutting p95 latency by 40% and increasing conversion by 6%.",
-        "Built an internal feature-flag platform adopted by 12 teams, reducing release rollbacks by 30%.",
-        "Mentored 3 junior engineers and drove code-review standards across the team.",
-      ],
-      tech: ["TypeScript", "React", "Node.js", "PostgreSQL", "AWS"],
-    },
-    {
-      company: "Previous Company",
-      role: "Software Engineer Intern",
-      location: "City, State",
-      start: "May 2022",
-      end: "Aug 2022",
       url: "",
       highlights: [
-        "Shipped a data-export feature used by 2,000+ customers in its first month.",
-        "Wrote integration tests that raised coverage from 55% to 82% on a critical service.",
+        "Develop and maintain features for an in-house CRM application replacing Salesforce, using Java, Spring Boot, React, and ElastiCache.",
+        "Build APIs, backend logic, and front-end applications for managing financial static data.",
+        "Set up and maintain AWS architecture (ECS, EC2, Lambda, RDS, ElastiCache, CloudWatch) as infrastructure-as-code with Terraform.",
+        "Support the Home Lending Advisor sales engagement flow by resolving production issues across its lifecycle.",
       ],
-      tech: ["Python", "Django", "Docker"],
+      tech: ["Java", "Spring Boot", "React", "AWS", "Terraform"],
+    },
+    {
+      company: "Pebble Marketplace",
+      role: "Software Engineering Intern",
+      location: "",
+      start: "Aug 2021",
+      end: "Dec 2021",
+      url: "",
+      highlights: ["Developed UI features for the shopwithpebble.com e-commerce site."],
+      tech: ["React", "GraphQL"],
+    },
+    {
+      company: "Discover Financial Services",
+      role: "Business & Technology Intern",
+      location: "Riverwoods, IL",
+      start: "Summer 2021",
+      end: "",
+      url: "",
+      highlights: ["Helped improve the e-wallet tokenization process used for Apple Pay and Google Pay."],
+      tech: [],
+    },
+    {
+      company: "J.B. Hunt",
+      role: "Engineering & Technology Intern",
+      location: "Fayetteville, AR",
+      start: "Jan 2020",
+      end: "May 2020",
+      url: "",
+      highlights: [
+        "Built features for the J.B. Hunt Drive mobile app.",
+        "Developed a mobile app that trains future interns on test-driven development in React Native.",
+      ],
+      tech: ["React Native"],
+    },
+    {
+      company: "SOFY.AI",
+      role: "Software Intern",
+      location: "Seattle, WA",
+      start: "Summer 2019",
+      end: "",
+      url: "",
+      highlights: [
+        "Helped build a developer tool for testing apps and websites across platforms.",
+        "Tested 1,000+ e-commerce apps to ensure the tool returned usable data.",
+      ],
+      tech: [],
+    },
+    {
+      company: "Kimbel Mechanical",
+      role: "IT Intern",
+      location: "Fayetteville, AR",
+      start: "Summer 2019",
+      end: "",
+      url: "",
+      highlights: [
+        "Streamlined data revision processing by using C++ to extract data from XML files and load it into SQL tables.",
+      ],
+      tech: ["C++", "XML", "SQL"],
     },
   ],
 
-  // Put your strongest 3–6 projects first. Set `featured: true` to highlight one.
-  projects: [
-    {
-      name: "Project One",
-      featured: true,
-      description:
-        "A one-to-two sentence description of what it does and the problem it solves. Mention scale or results if you have them.",
-      tech: ["React", "Node.js", "PostgreSQL"],
-      repo: "https://github.com/your-username/project-one",
-      demo: "https://project-one.example.com",
-    },
-    {
-      name: "Project Two",
-      description: "What it is, why you built it, and what was technically interesting about it.",
-      tech: ["Python", "FastAPI", "Docker"],
-      repo: "https://github.com/your-username/project-two",
-      demo: "",
-    },
-    {
-      name: "Project Three",
-      description: "Another project. Recruiters skim, so keep it short and concrete.",
-      tech: ["TypeScript", "Next.js", "Vercel"],
-      repo: "https://github.com/your-username/project-three",
-      demo: "",
-    },
-  ],
+  // Section is hidden while this is empty. Put your strongest 3–6 projects here;
+  // set `featured: true` on your best one. Example:
+  // {
+  //   name: "Project name",
+  //   featured: true,
+  //   description: "What it does, why you built it, what was technically interesting.",
+  //   tech: ["React", "Node.js"],
+  //   repo: "https://github.com/sarahssadiq3/project",
+  //   demo: "",
+  // },
+  projects: [],
 
   education: [
     {
-      school: "University Name",
-      degree: "B.S. in Computer Science",
-      start: "2018",
+      school: "University of Texas at Austin",
+      degree: "M.S. in Computer Science",
+      start: "Aug 2025",
+      end: "May 2028 (expected)",
+      details: "",
+    },
+    {
+      school: "University of Arkansas",
+      degree: "B.S. in Computer Science, Minor in Mathematics",
+      start: "",
       end: "2022",
-      details: "", // e.g. "GPA 3.8 · Dean's List"
+      details: "GPA 3.78 · Graduated with Distinction",
     },
   ],
 
   // Optional. Set to [] to hide the section.
-  certifications: [
-    // { name: "AWS Certified Developer – Associate", issuer: "Amazon Web Services", year: "2024", url: "" },
-  ],
+  certifications: [],
 };
