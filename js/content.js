@@ -8,7 +8,7 @@ window.CONTENT = {
   profile: {
     name: "Sarah Sadiq",
     title: "Software Engineer",
-    location: "Frisco, TX",
+    location: "Dallas, TX",
     // Short status line shown at the top. Set to "" to hide.
     availability: "",
     summary:
